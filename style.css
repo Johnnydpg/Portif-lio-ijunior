@@ -1,4 +1,54 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    background-color: #000000;
+    margin: 0;
+    overflow-y: hidden;
+}
+.perfil{
+    background-color: #1c1c1c;
+
+    border-radius: 30px;
+}
+.nome{
+    color: #2dff5e;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    transform: translateY(-423px);
+}
+.contatos{
+    color: #2dff5e;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+}
+.insta-img{
+    width: 35px;
+    height: auto;
+}
+.sobremim{
+    color: #2dff5e;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    transform: translateY(-1123px);
+    margin-left: 780px;
+}
+.informacoes{
+    color: #ffffff;
+    font-family: "Cousine", monospace;
+    font-size: 18px;
+    transform: translateY(-1223px);
+    margin-left: 680px;
+    max-width: 650px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.Mario-img{
+    transform: translateY(-1223px);
+    margin-left: 680px;
+}
+.Sonic-img{
+    transform: translateY(-1223px);
+    margin-left: 530px;
 }
