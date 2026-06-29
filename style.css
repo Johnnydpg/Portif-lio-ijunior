@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     background-color: #000000;
     margin: 0;
+    overflow: hidden;
 }
 .perfil{
     background-color: #1c1c1c;
@@ -82,4 +83,37 @@ body {
 .Sonic-img{
     transform: translateY(-1223px);
     margin-left: 530px;
+}
+.Meuprojeto{
+    color: #2dff5e;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    transform: translateY(-1235px);
+    margin-left: 780px;
+}
+.planejamento-img{
+    transform: translateY(-1323px);
+    margin-left: 680px;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+}
+.fisica-img{
+    transform: translateY(-1340px);
+    margin-left: 1030px;
+    width: 280px;
+    height: 280px;
+    border-radius: 30px;
+}
+.descricoesproj{
+    color: #ffffff;
+    font-family: "Cousine", monospace;
+    font-size: 18px;
+    transform: translateY(-1620px);
+    margin-left: 680px;
+    max-width: 650px;
+    line-height: 1.5;
+    text-align: justify;
+    width: 310px;
+    height: 300px;
 }
