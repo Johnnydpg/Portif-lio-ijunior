@@ -3,53 +3,52 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #0f0f0f;
+    background-color: #000000;
     margin: 0;
     overflow-y: hidden;
 }
 .perfil{
     background-color: #1c1c1c;
-    width: 500px;
-    padding: 20px;
-    border-radius: 12px;
-}
-.perfil-img{
-    margin: 70px;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 320px;
-    height: 320px;
-    object-fit: cover;
-    border-radius: 50%;
-    transform: translateY(-430px);
-}
-.fundo-img {
-    width: 500px;
-    height: 450px;
-    background-image: url("assets/Fundoweb.png");
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     border-radius: 30px;
 }
-h2{
+.nome{
     color: #2dff5e;
     font-family: "Press Start 2P";
     font-size: 20px;
     transform: translateY(-423px);
 }
-.email-img{
-    width: 35px;
-    height: auto;
-}
-.whatsapp-img{
-    width: 35px;
-    height: auto;
+.contatos{
+    color: #2dff5e;
+    font-family: "Press Start 2P";
+    font-size: 20px;
 }
 .insta-img{
     width: 35px;
     height: auto;
+}
+.sobremim{
+    color: #2dff5e;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    transform: translateY(-1123px);
+    margin-left: 780px;
+}
+.informacoes{
+    color: #ffffff;
+    font-family: "Cousine", monospace;
+    font-size: 18px;
+    transform: translateY(-1223px);
+    margin-left: 680px;
+    max-width: 650px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.Mario-img{
+    transform: translateY(-1223px);
+    margin-left: 680px;
+}
+.Sonic-img{
+    transform: translateY(-1223px);
+    margin-left: 530px;
 }
